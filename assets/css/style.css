@@ -29,7 +29,6 @@
       display: flex;
       justify-content: space-between;
       flex-wrap: wrap;
-      position: -webkit-sticky;
       top: 0;
       background-size: cover;
       background-position: 80%;
