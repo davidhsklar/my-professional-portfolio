@@ -1,0 +1,540 @@
+
+:root {
+    --primary-color: grey;
+    --secondary-color: aliceblue;
+    --tertiary-color: powderblue;
+    --font-stack: Arial, Helvetica, sans-serif;
+  }
+
+
+  *{
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+
+  }
+
+
+  body {
+
+     background-color: var(--tertiary-color);
+      font-family: Arial, Helvetica, sans-serif;
+  }
+
+  /* Applies to the header */
+
+  header {
+      padding: 20px 35px;
+      background-color: black;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      position: -webkit-sticky;
+      top: 0;
+      background-size: cover;
+      background-position: 80%;
+      background-attachment: fixed;
+      z-index: 9999;
+  }
+
+  header h1 {
+      font-weight: bold;
+      font-size: 36px;
+      color: var(--tertiary-color);
+      margin: 0;
+      text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+      background-image: url(../images/tjtfsaasv7v11.jpg);
+      height: 400px;
+
+
+  }
+
+  header a {
+      text-decoration: none;
+      color: var(--tertiary-color);
+  }
+
+  header nav {
+
+      margin: 7px 0;
+  }
+
+  header nav ul {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+  }
+
+  header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+
+  /* Applies to footer */
+
+  footer {
+
+      width: 100%;
+      padding: 40px 35px;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+
+  footer h3 {
+
+
+      font-size: 30px;
+      margin: 0;
+  }
+
+  footer div {
+
+      line-height: 1.5;
+      text-align: right;
+  }
+
+
+  section {
+      padding: 60px;
+  }
+
+  /* Hero Section start */
+
+  .hero-img {
+      background-image: url(../images/istockphoto-170958625-170667a.jpg);
+      height: 400px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      background-size: cover;
+      background-position: center;
+  }
+
+  .hero-img h2 {
+      float: right; 
+      color: var(--tertiary-color);
+      position: relative; 
+      top: 350px;
+      font-size: 32px;
+      font-style: italic;
+
+  }
+
+  .about-me {
+
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: left;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: var(--tertiary-color);
+
+}
+
+.about-me h2 {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 28px;
+    position: relative;
+    top:-50px;
+}
+
+.about-me p {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.section-title {
+    font-size: 32px;
+    width: 50%;
+    position:relative;
+    top: -150;
+  }
+
+
+.primary-border {
+    border-right: 2px solid black;
+    height: 200px;
+    width: auto;
+  }
+
+
+  .main-container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    margin-top: 5px;
+    align-content: flex-end;
+    width: 100%;
+  }
+  
+  .inner-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 2px;
+    flex-basis: 0 0 50%;
+    min-width: 50%;
+    
+  }
+
+  .main-content {
+    padding-left: 30px;
+    flex: 0 1 60%;
+    margin-right: 100px;
+  }
+
+  .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+
+  .item {
+    height: 200px;
+    width: max-content;
+    position: relative;
+    border: 5px solid black;
+    text-decoration: none;
+  }
+  
+  .item1 {
+    height: 500px;
+    flex-basis: 0 0 80%;
+    width: max-content;
+    background-image: url(../images/run-buddy.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .item2 {
+    background-image: url(../images/depositphotos_31468817-stock-photo-coming-soon-sign.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-basis: 0 0 20%;
+  }
+  
+  .item-placeholder {
+    background-image: url(../images/depositphotos_31468817-stock-photo-coming-soon-sign.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .hover-imgs:hover {
+    opacity: 0.7;
+  }
+  
+  .sub-tag {
+    position: relative;
+    top: 80%;
+    left: 0%;
+    width: fit-content;
+    padding: 5px 10px;
+    background-color: var(--tertiary-color);
+    font-family: var(--font-stack);
+    color: var(--primary-color);
+  }
+  
+  .sub-tag-small {
+    position: relative;
+    top: 65%;
+    width: fit-content;
+    padding: 5px 10px;
+    background-color: var(--tertiary-color);
+    font-family: var(--font-stack);
+    color: var(--primary-color);
+  }
+  
+  .sub-tag h4 {
+    font-size: 24px;
+  }
+
+  .contact-info {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .contact-info > * {
+    flex: 1;
+    margin: 15px;
+  }
+
+  .contact-info iframe {
+      height: 400px;
+    }
+
+
+    .contact-info h3 {
+      color: var(--primary-color);
+      font-size: 32px;
+    }
+
+    .contact-info p,
+    .contact-info address {
+      margin: 20px 0;
+      line-height: 1.5;
+      font-size: 24px;
+      font-style: oblique;
+    }
+
+    .contact-info a {
+      color: var(--primary-color);
+      font-size: 24px;
+    }
+
+
+    /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+
+  @media screen and (max-width: 980px) {
+    header {
+      padding-bottom: 0;
+      justify-content: center;
+      position: relative;
+    }
+
+    header h1 {
+      width: 100%;
+      text-align: center;
+      
+
+    }
+
+    header nav ul {
+      margin-top: 20px;
+      width: 100%;
+      justify-content: center;
+    }
+
+    header nav ul li a {
+      font-size: 20px;
+    }
+
+    header nav ul li a:hover {
+      background: var(--primary-color);
+      color: var(--secondary-color);
+      border-radius: 15px;
+      text-shadow: none;
+    }
+
+    footer h2, footer div {
+      text-align: center;
+      width: 100%;
+    }
+
+    .section-title {
+      width: 80%;
+    }
+    
+    .main-container {
+     width: 80%;
+    }
+
+    .inner-container {
+        width: 80%;
+    }
+
+    .main-content {
+        width: 80%;
+    }
+
+    .wrapper {
+        flex: 1 100%;
+    }
+    
+    .contact-info iframe{
+      flex: 1 100%;
+    }
+
+    .hero h2 {
+
+        flex: 100%;
+        flex-wrap: wrap;
+  }
+
+  .primary-border {
+    border-right: 2px solid black;
+    height: 200px;
+    flex-wrap: wrap;
+  }
+
+  .about-me {
+
+    margin-right: 20px;
+    clear: both;
+    flex: flex;
+    flex-wrap: wrap;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: var(--tertiary-color);
+
+}
+
+.about-me h2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex: flex;
+   
+}
+
+.about-me p {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+  }
+
+  /* MEDIA QUERY FOR TABLETS AND SMALLER */
+
+  @media screen and (max-width: 768px) {
+    
+    section {
+      padding: 30px 15px;
+
+    }
+    
+    .main-container {
+      flex: 1 100%;
+      text-align: center;
+    }
+    
+    .main-content {
+      flex: 2 100%;
+      text-align: center;
+      justify-content: center;
+
+    }
+
+    .inner-container {
+      flex: 100%;
+    }
+
+    .wrapper {
+        flex: 1 100%;
+    }
+
+    .hero h2 {
+
+        flex: 100%;
+        flex-wrap: wrap;
+    
+  }
+
+  .primary-border {
+    border-right: 2px solid black;
+    height: 200px;
+    flex-wrap: wrap;
+  }
+
+  .about-me {
+
+    margin-right: 20px;
+    clear: both;
+    flex: flex;
+    flex-wrap: wrap;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: var(--tertiary-color);
+
+}
+
+.about-me h2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex: flex;
+   
+}
+
+.about-me p {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+}
+
+  /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+
+  @media screen and (max-width: 575px) {
+
+
+  .section-title {
+    width: 95%;
+  }
+
+  .intro p {
+    width: 100%;  
+  }
+  
+
+  .contact-info {
+    text-align: center;
+  }
+
+  .contact-info > * {
+    flex: 0 100%;
+  }
+
+  .main-container {
+    width: 80%;
+   }
+
+   .inner-container {
+       width: 80%;
+   }
+
+   .main-content {
+       width: 80%;
+   }
+
+   .wrapper {
+       flex: 1 100%;
+   }
+
+   .hero h2 {
+
+    flex: 100%;
+    flex-wrap: wrap;
+}
+
+.primary-border {
+    border-right: 2px solid black;
+    height: 200px;
+    flex-wrap: wrap;
+  }
+
+  .about-me {
+
+    margin-right: 20px;
+    clear: both;
+    flex: flex;
+    flex-wrap: wrap;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: var(--tertiary-color);
+
+}
+
+.about-me h2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex: flex;
+   
+}
+
+.about-me p {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+  }
