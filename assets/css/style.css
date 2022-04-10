@@ -216,6 +216,16 @@
     background-repeat: no-repeat;
     background-size: cover;
   }
+
+  .item3 {
+    height: 500px;
+    flex-basis: 0 0 80%;
+    width: max-content;
+    background-image: url(https://projectbootcamp4.github.io/boot-bank/images/BBlogo.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
   
   .item2 {
     background-image: url(../images/depositphotos_31468817-stock-photo-coming-soon-sign.jpg);
