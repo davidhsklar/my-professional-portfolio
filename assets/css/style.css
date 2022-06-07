@@ -231,6 +231,16 @@
     background-repeat: no-repeat;
     background-size: cover;
   }
+
+  .item4 {
+    height: 500px;
+    flex-basis: 0 0 80%;
+    width: max-content;
+    background-image: url(../images/residential\ screenshot.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
   
   .hover-imgs:hover {
     opacity: 0.7;
